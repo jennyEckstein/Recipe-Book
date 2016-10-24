@@ -5,8 +5,7 @@ import { RecipesComponent } from './recipes/recipes.component'
 @Component({
   selector: 'jenny-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  directives: [HeaderComponent, RecipesComponent]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'jenny works!';

@@ -6,7 +6,12 @@
 <div class="row">
 	<div class="col-xs-12">
 		<ul class="list-group">
-			<jenny-recipe-item [recipe]="recipe" (click)="onSelected(recipe)"></jenny-recipe-item>
+			<jenny-recipe-item 
+			*ngFor="let recipe of recipes" 
+			[recipe]="recipe" 
+			(click)="onSelected(recipe)">
+				
+			</jenny-recipe-item>
 		</ul>
 	</div>
 </div>

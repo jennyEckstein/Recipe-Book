@@ -8,5 +8,4 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'jenny works!';
 }

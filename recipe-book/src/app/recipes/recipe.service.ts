@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Recipe } from './recipe';
+import { Ingredient } from '../shared/ingredient';
 
 @Injectable()
 export class RecipeService {
@@ -8,7 +9,7 @@ export class RecipeService {
         'Chicken Soup',
          'Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients.',
          'https://recipeland.com/images/r/18707/d8a75a658379a5c91f80_400.jpg',
-         []
+         [new Ingredient('Chicken', 1), new Ingredient('Water', 5)])
         ),
       new Recipe(
          'Meatball',

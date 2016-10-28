@@ -3,7 +3,8 @@
 		<jenny-shopping-list-add></jenny-shopping-list-add>
 		<hr>
 		<ul>
-		<a class="list-group-item" style="cursor: pointer" *ngFor="let item of items"></a>
+		<a class="list-group-item" style="cursor: pointer" 
+		*ngFor="let item of items">{{item.name}} ({{item.amount}})</a>
 		</ul>
 	</div>
 </div>

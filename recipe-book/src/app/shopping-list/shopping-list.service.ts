@@ -13,5 +13,7 @@ export class ShoppingListService {
   	/*push multiple items in one code*/
   	Array.prototype.push.apply(this.items, items);
   }
-
+  addItem(item: Ingredient){
+  	this.items.push(item);
+  }
 }

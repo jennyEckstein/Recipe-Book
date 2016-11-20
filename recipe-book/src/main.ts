@@ -7,8 +7,8 @@ import { AppModule } from './app/';
 import { ShoppingListService } from './app/shopping-list/shopping-list.service';
 
 
-if (environment.production) {
+//if (environment.production) {
   enableProdMode();
-}
+//}
 
 platformBrowserDynamic().bootstrapModule(AppModule, ShoppingListService);
